@@ -3,49 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | HW3</title>
+    <title>Projects | Mohammed Almuhaitheef</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
         <h1>My Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="projects.html" class="active">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <article>
-            <h2>BakerEater</h2>
-            <time datetime="2024">2024</time>
-            <p>A gamification platform that helps local businesses attract customers.</p>
-            <figure>
-                <img src="baker-eater.png" alt="BakerEater">
-                <figcaption>BakerEater Platform</figcaption>
-            </figure>
-            <a href="https://bakereater.com" target="_blank">Live Demo</a>
-        </article>
+        <!-- Project 1: BakerEater -->
+        <section class="project">
+            <article>
+                <h2>BakerEater</h2>
+                <time datetime="2024-08-31">Beta Launch: August 31, 2024</time>
+                <figure>
+                    <img src="images/bakereater.jpg" alt="BakerEater Project Screenshot">
+                    <figcaption>BakerEater - Gamifying local businesses.</figcaption>
+                </figure>
+                <p>
+                    BakerEater is a platform that turns local businesses into customer attractions using challenges 
+                    and gamification. It primarily targets cafes, restaurants, and shops, creating an engaging 
+                    experience for customers.
+                </p>
+                <a href="https://bakereater.com" target="_blank">Live Demo</a>
+                <a href="https://github.com/Muhaitheef/BakerEater" target="_blank">GitHub Repository</a>
+            </article>
+        </section>
 
-        <article>
-            <h2>DopaVerse</h2>
-            <time datetime="2025">2025</time>
-            <p>A productivity tool for ADHD users to stay focused.</p>
-            <figure>
-                <img src="dopaverse.png" alt="DopaVerse">
-                <figcaption>DopaVerse App</figcaption>
-            </figure>
-            <a href="https://dopaverse.com" target="_blank">Live Demo</a>
-        </article>
+        <!-- Project 2: QuickTrack - Delivery Manager -->
+        <section class="project">
+            <article>
+                <h2>QuickTrack: Delivery Manager</h2>
+                <time datetime="2024-07-01">Completed: July 1, 2024</time>
+                <figure>
+                    <img src="images/quicktrack.jpg" alt="QuickTrack Project Screenshot">
+                    <figcaption>QuickTrack - Streamlining delivery tracking.</figcaption>
+                </figure>
+                <p>
+                    QuickTrack is a delivery management system that helps businesses optimize their 
+                    order tracking and dispatching process. It provides real-time status updates, route optimization, 
+                    and analytics to enhance efficiency.
+                </p>
+                <a href="https://quicktrack.com" target="_blank">Live Demo</a>
+                <a href="https://github.com/Muhaitheef/QuickTrack" target="_blank">GitHub Repository</a>
+            </article>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Mohammed Almuhaitheef | HW3 Portfolio</p>
+        <p>&copy; 2025 Mohammed Almuhaitheef | All rights reserved.</p>
     </footer>
+
 </body>
 </html>
